@@ -7,6 +7,7 @@ body {
 }
 .container {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .half-width {
@@ -82,7 +83,7 @@ color: #E0B612;
 .submit-btn {
     border: none;
     margin-top: 20px;
-    padding: 10px 120px;
+    padding: 10px 60px;
     border-radius: 5px;
     background: #495BC3;
     color: #fff;
@@ -97,8 +98,17 @@ color: #E0B612;
     padding: 5px 20px;
 }
 .notify-section{
-    width: 35%;
+    width: 90%;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 570px){
+    .submit-btn{
+        padding: 10px 120px;
+    }
+    .notify-section{
+        width: 35%;
+    }
 }
 .action-left {
     color: #FF3C5F;
