@@ -122,3 +122,12 @@ color: #E0B612;
 .notify.indicator{
     display: block;
 }
+
+.button,.submit-btn {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
